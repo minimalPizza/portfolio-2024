@@ -1,0 +1,86 @@
+.hero {
+    padding: 16px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    min-height: 682px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/bg-pattern-v2.jpg);
+    color: $white;
+    overflow: hidden;
+
+    &__title {
+        font-size: 4.063rem;
+        color: $white;
+    }
+    &__desc {
+        max-width: 542px;
+        margin-left: auto;
+        margin-right: auto;
+        color: $white;
+    }
+    &__activity-text {
+        display: none;
+    }
+}
+.marker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: url('../images/marker-brush.png');
+    transform: translateY(50%);
+}
+.sticky-note {
+    position: absolute;
+    display: none;
+}
+
+@media (min-width:768px) {
+    .sticky-note {
+        display: inline-block;
+
+        &--right {
+            right: 0%; 
+            bottom: 5%;
+            transform: rotate(-28deg);
+        }
+        &--left {
+            left: 0%; 
+            bottom: 7%;
+        }
+    }
+}
+
+@media (min-width:922px) {
+    .sticky-note {
+        &--right {
+            right: 10%; 
+            bottom: 17%;
+            transform: rotate(-28deg);
+        }
+        &--left {
+            left: 10%; 
+            bottom: 15%;
+        }
+    }
+
+    .hero {
+        &__activity-text {
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: 4rem;
+            color: $white;
+            font-size: 1rem;
+            transform: translateX(-50%);
+        }
+    }
+}

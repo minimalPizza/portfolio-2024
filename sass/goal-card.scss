@@ -1,0 +1,17 @@
+.goal-card {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5e1ef;
+    border-radius: 12px;
+    aspect-ratio: 1 / 1;
+
+    &__title {
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 1.27rem;
+    }
+}

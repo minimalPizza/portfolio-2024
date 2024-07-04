@@ -1,0 +1,103 @@
+$light: #0A1B2B;
+$white: #FFFFFF;
+$dark-blue: #000C23;
+$light-blue: #49e1ff;
+$accent-color: #FFD749;
+
+
+html {
+    font-size: 13px;
+}
+body {
+    font-family: greycliff-cf, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: $dark-blue;
+}
+h1, h2 {
+    font-weight: 800;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.38rem;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1.37rem;
+    font-weight: 400;
+}
+a {
+    font-size: 1.13rem;
+    color: $dark-blue;
+
+    &:hover {
+        color: darken($light-blue, 30%);
+    }
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+.quote {
+    font-family: "permanent-marker", "greycliff-cf", sans-serif;
+    font-size: 1.8rem;
+}
+.marker-font {
+    font-family: "permanent-marker", "greycliff-cf", sans-serif;
+}
+
+// Colors
+.color-light {
+    color: $light;
+}
+.bg-color-gray {
+    background-color: $accent-color;
+}
+
+//containers
+.article-container {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.breadcrumb {
+    font-size: 1.13rem;
+
+    &__link {
+        padding: 3px 16px;
+        border-radius: 50px;
+        background-color: $accent-color;
+        color: $dark-blue;
+        transition: 200ms;
+
+        &:hover {
+            background-color: $light-blue;
+            color: lighten($dark-blue, 10%);
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
