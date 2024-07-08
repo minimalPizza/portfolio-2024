@@ -25,6 +25,14 @@
       "oAP" : "\/answers-research-journal.html",
       "oF" : 0
     },
+    "\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/CNAME",
+      "oF" : 0
+    },
     "\/css\/bootstrap-grid.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -323,6 +331,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/website-og.jpg" : {
+      "ft" : 16384,
+      "iS" : 283875,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/website-og.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
