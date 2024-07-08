@@ -283,14 +283,14 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/sticky-favicon.png" : {
+    "\/images\/sticky-favicon-v2.png" : {
       "ft" : 32768,
-      "iS" : 219,
+      "iS" : 1207,
       "oA" : 0,
-      "oAP" : "\/images\/sticky-favicon.png",
+      "oAP" : "\/images\/sticky-favicon-v2.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
