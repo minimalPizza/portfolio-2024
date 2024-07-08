@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34576",
   "files" : {
+    "\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about.html",
+      "oF" : 0
+    },
     "\/answers-research-journal.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -17,7 +25,7 @@
       "oAP" : "\/answers-research-journal.html",
       "oF" : 0
     },
-    "\/css\/bootstrap-grid.css" : {
+    "\/css\/bootstrap-grid.min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -25,7 +33,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/bootstrap-grid-min.css",
+      "oAP" : "\/css\/bootstrap-grid.min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -237,6 +245,19 @@
       "iS" : 66836,
       "oA" : 0,
       "oAP" : "\/images\/sticky-note-smile.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/images\/tatiana-zanon-MMhazsT2wtM-unsplash.png" : {
+      "ft" : 32768,
+      "iS" : 83843,
+      "oA" : 0,
+      "oAP" : "\/images\/tatiana-zanon-MMhazsT2wtM-unsplash.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
