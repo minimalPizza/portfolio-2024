@@ -366,8 +366,8 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 0
+      "oAP" : "\/css\/index.css",
+      "oF" : 2
     },
     "\/jobs-page.html" : {
       "cB" : 0,
