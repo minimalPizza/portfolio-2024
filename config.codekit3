@@ -257,6 +257,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/jungle-journey-see-more.jpg" : {
+      "ft" : 16384,
+      "iS" : 34100,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/jungle-journey-see-more.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/marker-brush.png" : {
       "ft" : 32768,
       "iS" : 7872,
@@ -279,6 +292,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/profile-pic-v2.jpg" : {
+      "ft" : 16384,
+      "iS" : 75072,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/profile-pic-v2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
