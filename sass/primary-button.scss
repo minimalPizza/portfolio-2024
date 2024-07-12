@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 350ms;
+
+    &-primary--yellow {
+        color: $dark-blue;
+        background-color: $accent-color;
+
+        &:hover {
+            background-color: $light-blue;
+            color: lighten($dark-blue, 10%);
+        }
+    }
+
+    &-primary--light {
+        background-color: $white;
+        color: $light;
+    }
+}

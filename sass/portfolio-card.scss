@@ -1,0 +1,28 @@
+.portfolio-card {
+    display: flex;
+    align-items: end;
+    padding: 34px;
+    min-height: 218px;
+    border-radius: 12px;
+    background-color: $light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    &__title {
+        margin-bottom: 1rem;
+        color: $white;
+    }
+}
+
+@media (min-width: 576px) {
+    .portfolio-card {
+        &__title {
+            margin: 0;
+        }
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
