@@ -413,6 +413,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/vbs-rotation-header.jpg" : {
+      "ft" : 16384,
+      "iS" : 118451,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/vbs-rotation-header.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/website-og.jpg" : {
       "ft" : 16384,
       "iS" : 283875,
